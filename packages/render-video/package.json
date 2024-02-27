@@ -1,7 +1,7 @@
 {
-  "name": "render-web-video",
+  "name": "@x.render/render-web-video",
   "version": "1.0.2",
-  "description": "> TODO: description",
+  "description": "video-based video playback component",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
   "license": "ISC",
@@ -23,11 +23,13 @@
     "start": "../../node_modules/.bin/render-builder start --config ../../build.json",
     "build": "../../node_modules/.bin/render-builder build --config ../../build.json"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "classnames": "^2.5.1",
     "omit.js": "^2.0.2"
   },
-  "gitHead": "3cdfa0a82b8ca7fefb40e92f3568f4f8108b49e9",
   "devDependencies": {
     "@types/react": "^18.2.55",
     "react": "^18.2.0"
