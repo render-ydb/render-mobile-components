@@ -4,6 +4,8 @@
   "description": "A mobile component library developed based on React.",
   "main": "index.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
+    "lerna:publish": "npx lerna publish --yes",
     "prepare": "npx render-lint init  --force",
     "build": "node scripts/build",
     "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
