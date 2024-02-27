@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
-    "render-view": "file:../render-view"
+    "@x.render/render-view": "file:../render-view"
   },
   "peerDependencies": {
     "react": "^18.2.0"

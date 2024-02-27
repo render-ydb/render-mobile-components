@@ -7,7 +7,7 @@ import {
 } from 'react';
 import View from '@x.render/render-view';
 import ScrollView from '@x.render/render-scrollview';
-import { ScrollViewRefObject } from 'render-scrollview/build/lib/types';
+import { ScrollViewRefObject } from '@x.render/render-scrollview/build/lib/types';
 import omit from './util';
 import { WaterFallProps } from './types';
 

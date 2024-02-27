@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "render-text": "^1.0.2"
+    "@x.render/render-text": "file:../render-text"
   },
   "peerDependencies": {
     "react": "^18.2.0"

@@ -27,8 +27,8 @@
     "access": "public"
   },
   "dependencies": {
-    "render-scrollview": "file:../render-scrollview",
-    "render-view": "file:../render-view"
+    "@x.render/render-scrollview": "file:../render-scrollview",
+    "@x.render/render-view": "file:../render-view"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
