@@ -7,13 +7,13 @@
 
 </p>
 
-[中文文档](./README.zh.md)
+[英文文档](./README.md)
 
-## Introduce
+## 描述
 
-Text is used to display text and is a span tag.
+Text 用于显示文本，是一个 span 标签。
 
-## Usage
+## 使用后
 
 ```bash
 $ npm install  @x.render/render-text --save
@@ -114,8 +114,8 @@ const App = () => {
 export default App;
 ```
 
-## Property
+## 属性
 
-| **Name**      | **Type** | **Default** | **Required** | **Description** |
-| ------------- | -------- | ----------- | ------------ | --------------- |
-| numberOfLines | `number` | 1           | false        | Rows            |
+| **属性**      | **类型** | **默认值** | **必填** | **描述** |
+| ------------- | -------- | ---------- | -------- | -------- |
+| numberOfLines | `number` | 1          | false    | 行数     |

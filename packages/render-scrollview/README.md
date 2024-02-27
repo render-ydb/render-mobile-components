@@ -45,10 +45,10 @@ $ npm install @x.render/render-scrollview --save
 
 | **Name** | **Type**  | **Default** | **Required** | **Description**                                                                                             |
 | -------- | --------- | ----------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
-| x        | `number`  | -           | 否           | horizontal offset                                                                                           |
-| y        | `number`  | -           | 否           | vertical offset                                                                                             |
-| animated | `boolean` | `true`      | 否           | Use animated transitions when setting scrollbar position                                                    |
-| duration | `number`  | 400         | 否           | When `animated` is set to `true`, duration can be set to control the execution time of the animation in `ms |
+| x        | `number`  | -           | No           | horizontal offset                                                                                           |
+| y        | `number`  | -           | No           | vertical offset                                                                                             |
+| animated | `boolean` | `true`      | No           | Use animated transitions when setting scrollbar position                                                    |
+| duration | `number`  | 400         | No           | When `animated` is set to `true`, duration can be set to control the execution time of the animation in `ms |
 
 ### scrollIntoView({id: string, animated?: boolean, duration?: number, offsetX?: number, offsetY?: number})
 

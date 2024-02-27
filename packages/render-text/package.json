@@ -1,7 +1,7 @@
 {
-  "name": "render-text",
+  "name": "@x.render/render-text",
   "version": "1.0.2",
-  "description": "> TODO: description",
+  "description": "Text is used to display text and is a span tag.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
   "license": "ISC",
@@ -17,16 +17,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/x-render-ydb/render-components.git"
+    "url": "https://github.com/render-x/render-mobile-components.git"
   },
   "scripts": {
     "start": "../../node_modules/.bin/render-builder start --config ../../build.json",
     "build": "../../node_modules/.bin/render-builder build --config ../../build.json"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": "^18.2.0"
   },
-  "gitHead": "3cdfa0a82b8ca7fefb40e92f3568f4f8108b49e9",
   "devDependencies": {
     "@types/react": "^18.2.55",
     "react": "^18.2.0"
