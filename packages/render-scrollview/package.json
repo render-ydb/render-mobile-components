@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-scrollview",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ScrollView is a component that wraps scrolling operations. A certain height is needed to ensure the normal display of ScrollView.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
@@ -27,8 +27,8 @@
     "access": "public"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
-    "@x.render/render-view": "file:../render-view"
+    "@x.render/render-view": "file:../render-view",
+    "classnames": "^2.5.1"
   },
   "peerDependencies": {
     "react": "^18.2.0"

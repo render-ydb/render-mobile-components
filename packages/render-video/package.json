@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-web-video",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "video-based video playback component",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",

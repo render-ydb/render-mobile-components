@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-text",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Text is used to display text and is a span tag.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",

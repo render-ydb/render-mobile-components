@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-view",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "For react components encapsulated by div, you can understand that View is a container component used to include any elements and components. View provides appear related events. You can use this feature to do something special.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
