@@ -1,35 +1,27 @@
-# render-view
+# @x.render/render-view
 
-## 描述
+<p>
+<a href="https://www.npmjs.com/package/@x.render/render-view" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-view" alt="NPM version" /></a>
 
-经过 div 封装后的 react 组件，你可以理解 View 是一个容器组件，用于包括任何元素和组件。View 提供 appear 相关事件，你可以利用此特性，做一些特别的事情
+<a href="https://www.npmjs.com/package/@x.render/render-view" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-view" alt="NPM Downloads" /></a>
 
-## 安装
+</p>
+
+[中文文档](./README.zh.md)
+
+## Introduce
+
+For react components encapsulated by div, you can understand that View is a container component used to include any elements and components. View provides appear related events. You can use this feature to do something special.
+
+## Usage
 
 ```bash
-$ npm install render-view --save
+$ npm install @x.render/render-view --save
 ```
-
-## 属性
-
-| **属性**      | **类型**        | **默认值** | **必填** | **描述**                         |
-| ------------- | --------------- | ---------- | -------- | -------------------------------- |
-| className     | `string`        | -          | false    | 自定义样式名                     |
-| style         | `CSSProperties` | -          | false    | 自定义样式                       |
-| onClick       | `function`      | -          | false    | 点击                             |
-| onAppear      | `function`      | -          | false    | 当前元素可见时触发               |
-| onDisappear   | `function`      | -          | false    | 当前元素从可见变为不可见时触发   |
-| onFirstAppear | `function`      | -          | false    | 当前元素首次可见时触发           |
-| onTouchStart  | `function`      | -          | false    | 触摸动作开始                     |
-| onTouchMove   | `function`      | -          | false    | 触摸后移动                       |
-| onTouchEnd    | `function`      | -          | false    | 触摸动作结束                     |
-| onTouchCancel | `function`      | -          | false    | 触摸动作被打断，如来电提醒，弹窗 |
-
-## 示例
 
 ```jsx
 import { useRef, useEffect } from "react";
-import View from "render-view";
+import View from "@x.render/render-view";
 
 const App = () => {
   const viewRef = useRef(null);
@@ -85,9 +77,24 @@ const App = () => {
 export default App;
 ```
 
-## 默认样式
+## Property
 
-render-view 默认样式如下：
+| **Name**      | **Type**        | **Default** | **必填** | **Description**                                                                    |
+| ------------- | --------------- | ----------- | -------- | ---------------------------------------------------------------------------------- |
+| className     | `string`        | -           | false    | Custom class name                                                                  |
+| style         | `CSSProperties` | -           | false    | Custom style                                                                       |
+| onClick       | `function`      | -           | false    | click                                                                              |
+| onAppear      | `function`      | -           | false    | Fires when the current element is visible                                          |
+| onDisappear   | `function`      | -           | false    | Triggered when the current element changes from visible to invisible               |
+| onFirstAppear | `function`      | -           | false    | Fires when the current element becomes visible for the first time                  |
+| onTouchStart  | `function`      | -           | false    | Touch action starts                                                                |
+| onTouchMove   | `function`      | -           | false    | Move after touch                                                                   |
+| onTouchEnd    | `function`      | -           | false    | Touch action ends                                                                  |
+| onTouchCancel | `function`      | -           | false    | Touch actions are interrupted, such as incoming call reminders and pop-up windows. |
+
+## Default style
+
+The default style of render-view is as follows:
 
 ```css
 .render-view-v1 {

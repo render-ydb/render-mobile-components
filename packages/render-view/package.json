@@ -1,7 +1,7 @@
 {
-  "name": "render-view",
+  "name": "@x.render/render-view",
   "version": "1.0.2",
-  "description": "> TODO: description",
+  "description": "For react components encapsulated by div, you can understand that View is a container component used to include any elements and components. View provides appear related events. You can use this feature to do something special.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
   "license": "ISC",
@@ -24,6 +24,9 @@
     "build": "../../node_modules/.bin/render-builder build --config ../../build.json",
     "prepublishOnly": "npm run build"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": "^18.2.0"
   },
@@ -31,7 +34,6 @@
     "classnames": "^2.5.1",
     "uuid": "^9.0.1"
   },
-  "gitHead": "3cdfa0a82b8ca7fefb40e92f3568f4f8108b49e9",
   "devDependencies": {
     "@types/react": "^18.2.55",
     "react": "^18.2.0"
