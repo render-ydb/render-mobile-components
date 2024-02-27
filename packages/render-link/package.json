@@ -1,5 +1,5 @@
 {
-  "name": "render-link",
+  "name": "@x.render/render-link",
   "version": "1.0.2",
   "description": "> TODO: description",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
@@ -23,6 +23,9 @@
     "start": "../../node_modules/.bin/render-builder start --config ../../build.json",
     "build": "../../node_modules/.bin/render-builder build --config ../../build.json",
     "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "render-text": "^1.0.2"
