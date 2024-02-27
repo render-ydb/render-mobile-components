@@ -1,33 +1,31 @@
-# render-pullrefresh
+# @x.render/render-pullrefresh
 
-## 描述
+<p>
+<a href="https://www.npmjs.com/package/@x.render/render-pullRefresh" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-pullRefresh" alt="NPM version" /></a>
 
-支持自定义下拉刷新提示的容器
+<a href="https://www.npmjs.com/package/@x.render/render-pullRefresh" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-pullRefresh" alt="NPM Downloads" /></a>
 
-## 注意
+</p>
 
-<span style="color: red;">由于样式中带有 transform 属性，内部 fixed 元素样式会受到影响</span>
+[中文文档](./README.zh.md)
 
-## 安装
+## Introduce
+
+Container that supports custom pull-down refresh prompts
+
+## Notice
+
+<span style="color: red;">Due to the transform attribute in the style, the internal fixed element style will be affected </span>
+
+## Usage
 
 ```bash
-$ npm install render-pullrefresh --save
+$ npm install @x.render/render-pullrefresh --save
 ```
 
-## 属性
-
-| **属性**      | **类型**        | **默认值**        | **必填** | **描述**                    |
-| ------------- | --------------- | ----------------- | -------- | --------------------------- |
-| style         | `CSSProperties` | -                 | false    | 自定义样式                  |
-| disabled      | `boolean`       | -                 | false    | 是否触发下拉刷新            |
-| renderRefresh | `function`      | -                 | false    | 自定义需要渲染的下拉刷新 UI |
-| onRefresh     | `function`      | location.reload() | false    | 触发下拉刷新后的执行函数    |
-
-## 示例
-
 ```jsx
-import PullRefresh from "render-pullrefresh";
-import View from "render-view";
+import PullRefresh from "@x.render/render-pullrefresh";
+import View from "@x.render/render-view";
 const App = () => {
   return (
     <PullRefresh
@@ -40,86 +38,87 @@ const App = () => {
       }}
     >
       <View style={{ background: "red" }}>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
-        <View>这是些测试数据</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
+        <View>test data</View>
       </View>
     </PullRefresh>
   );
@@ -127,3 +126,12 @@ const App = () => {
 
 export default App;
 ```
+
+## Property
+
+| **Name**      | **Type**        | **Default**       | **Required** | **Description**                                              |
+| ------------- | --------------- | ----------------- | ------------ | ------------------------------------------------------------ |
+| style         | `CSSProperties` | -                 | false        | Custom style                                                 |
+| disabled      | `boolean`       | -                 | false        | Whether to trigger pull-down refresh                         |
+| renderRefresh | `function`      | -                 | false        | Customize the pull-down refresh UI that needs to be rendered |
+| onRefresh     | `function`      | location.reload() | false        | Execution function after triggering pull-down refresh        |

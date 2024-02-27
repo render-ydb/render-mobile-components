@@ -1,4 +1,4 @@
-# render-picture
+# @x.render/render-picture
 
 <p>
 <a href="https://www.npmjs.com/package/@x.render/render-picture" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-picture" alt="NPM version" /></a>
@@ -7,7 +7,7 @@
 
 </p>
 
-[中文文档](./README.zh.md)
+[英文文档](./README.md)
 
 ## 描述
 
