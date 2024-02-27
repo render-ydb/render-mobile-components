@@ -27,8 +27,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-scrollview": "file:../render-scrollview",
-    "@x.render/render-view": "file:../render-view"
+    "@x.render/render-scrollview": "^1.0.0",
+    "@x.render/render-view": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
@@ -36,5 +36,6 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "gitHead": "df7cf4ea9a2711fe3f66557f52fa06482b096682"
 }

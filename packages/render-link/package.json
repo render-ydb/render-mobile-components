@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-text": "file:../render-text"
+    "@x.render/render-text": "^1.0.0"
   },
   "peerDependencies": {
     "react": "^18.2.0"
@@ -36,5 +36,6 @@
   "devDependencies": {
     "@types/react": "^18.2.55",
     "react": "^18.2.0"
-  }
+  },
+  "gitHead": "df7cf4ea9a2711fe3f66557f52fa06482b096682"
 }
