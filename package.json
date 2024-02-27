@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
-    "lerna:publish": "npx lerna publish --force-publish=* --yes",
+    "lerna:publish": "npx lerna publish --yes --force-publish=*",
     "prepare": "npx render-lint init  --force",
     "build": "node scripts/build",
     "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
