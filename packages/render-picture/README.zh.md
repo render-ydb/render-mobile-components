@@ -9,11 +9,11 @@
 
 [中文文档](./README.zh.md)
 
-## Introduce
+## 描述
 
-The image display component implemented by the img element adds lazy loading and default bottom-up image display functions compared to the img element.
+由 img 元素实现的图片展示组件，相对于 img 元素，增加了懒加载和默认兜底图展示功能。
 
-## Usage
+## 使用
 
 ```bash
 $ npm install @x.render/render-picture --save
@@ -41,10 +41,10 @@ const App = () => {
 export default App;
 ```
 
-## Property
+## 属性
 
-| **Name**    | **Type**  | **Default** | **Required** | **description**                                                                  |
-| ----------- | --------- | ----------- | ------------ | -------------------------------------------------------------------------------- |
-| src         | `string`  | -           | true         | The address of the picture resource                                              |
-| placeholder | `string`  | -           | false        | Image resource placeholder                                                       |
-| lazyload    | `boolean` | false       | false        | Whether to enable lazy loading (when the img element is visible, load the image) |
+| **属性**    | **类型**  | **默认值** | **必填** | **描述**                                         |
+| ----------- | --------- | ---------- | -------- | ------------------------------------------------ |
+| src         | `string`  | -          | true     | 图片资源地址                                     |
+| placeholder | `string`  | -          | false    | 兜底图片资源地址                                 |
+| lazyload    | `boolean` | false      | false    | 是否开启懒加载（img 元素可见的时候，去加载图片） |

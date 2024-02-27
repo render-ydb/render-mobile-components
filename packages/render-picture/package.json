@@ -1,7 +1,7 @@
 {
-  "name": "render-picture",
+  "name": "@x.render/render-picture",
   "version": "1.0.2",
-  "description": "> TODO: description",
+  "description": "The image display component implemented by the img element adds lazy loading and default bottom-up image display functions compared to the img element.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
   "license": "ISC",
@@ -22,6 +22,9 @@
   "scripts": {
     "start": "../../node_modules/.bin/render-builder start --config ../../build.json",
     "build": "../../node_modules/.bin/render-builder build --config ../../build.json"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

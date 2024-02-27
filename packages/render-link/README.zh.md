@@ -1,5 +1,14 @@
 # @x.render/render-link
 
+<p>
+<a href="https://www.npmjs.com/package/@x.render/render-link" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-link" alt="NPM version" /></a>
+
+<a href="https://www.npmjs.com/package/@x.render/render-link" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-link" alt="NPM Downloads" /></a>
+
+</p>
+
+[英文文档](./README.md)
+
 ## 描述
 
 Link 是基础的链接组件，功能同 a 标签。

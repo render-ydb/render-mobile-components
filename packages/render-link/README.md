@@ -1,27 +1,34 @@
-# render-link
+# @x.render/render-link
 
-## 描述
+<p>
+<a href="https://www.npmjs.com/package/@x.render/render-link" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-link" alt="NPM version" /></a>
 
-Link 是基础的链接组件，同 a 标签。
+<a href="https://www.npmjs.com/package/@x.render/render-link" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-link" alt="NPM Downloads" /></a>
 
-## 安装
+</p>
+
+[中文文档](./README.zh.md)
+
+## Introduce
+
+Link is the basic link component and has the same function as the a tag.
+
+## Property
+
+| **Name** | **Type**   | **Default** | **Required** | **description**                     |
+| -------- | ---------- | ----------- | ------------ | ----------------------------------- |
+| onClick  | `function` | -           | false        | Triggered after the node is clicked |
+| href     | `string`   | -           | true         | Jump target address                 |
+
+## Usage
 
 ```bash
-$ npm install render-link --save
+$ npm install @x.render/render-link --save
 ```
 
-## 属性
-
-| **属性** | **类型**   | **默认值** | **必填** | **描述**           |
-| -------- | ---------- | ---------- | -------- | ------------------ |
-| onClick  | `function` | -          | false    | 节点被点击之后触发 |
-| href     | `string`   | -          | true     | 跳转目标地址       |
-
-## 示例
-
 ```jsx
-import Link from "render-link";
-import Text from "render-text";
+import Link from "@x.render/render-link";
+import Text from "@x.render/render-text";
 const App = () => {
   return (
     <Link
