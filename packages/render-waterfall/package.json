@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-waterfall",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "List container for implementing waterfall flow",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
@@ -27,8 +27,8 @@
     "access": "public"
   },
   "dependencies": {
-    "render-scrollview": "^1.0.2",
-    "render-view": "^1.0.2"
+    "render-scrollview": "file:../render-scrollview",
+    "render-view": "file:../render-view"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

@@ -1,5 +1,5 @@
 import { useState, Fragment, FC } from 'react';
-import View from 'render-view';
+import View from '@x.render/render-view';
 import cx from 'classnames/dedupe';
 import { PullRefreshProps } from './types';
 import './index.css';

@@ -5,8 +5,8 @@ import {
   memo,
   ForwardRefRenderFunction,
 } from 'react';
-import View from 'render-view';
-import ScrollView from 'render-scrollview';
+import View from '@x.render/render-view';
+import ScrollView from '@x.render/render-scrollview';
 import { ScrollViewRefObject } from 'render-scrollview/build/lib/types';
 import omit from './util';
 import { WaterFallProps } from './types';

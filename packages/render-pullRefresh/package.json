@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-pullrefresh",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "Container that supports custom pull-down refresh prompts",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
-    "render-view": "^1.0.2"
+    "@x.render/render-view": "file:../render-view"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

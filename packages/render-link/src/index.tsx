@@ -1,5 +1,5 @@
 import { forwardRef, ForwardRefRenderFunction } from 'react';
-import Text from 'render-text';
+import Text from '@x.render/render-text';
 import { LinkProps } from './types';
 
 const Link: ForwardRefRenderFunction<HTMLAnchorElement, LinkProps> = (

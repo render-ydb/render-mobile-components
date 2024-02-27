@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-link",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "Link is the basic link component and has the same function as the a tag.",
   "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
   "homepage": "",
