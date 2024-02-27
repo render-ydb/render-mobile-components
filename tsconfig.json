@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2015",
+        "jsx": "preserve",
+        "jsxFactory": "React.createElement",
+        "moduleResolution": "Node",
+        "alwaysStrict": true,
+        "sourceMap": false,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "outDir": "build",
+        "allowSyntheticDefaultImports": true,
+    },
+   
+}

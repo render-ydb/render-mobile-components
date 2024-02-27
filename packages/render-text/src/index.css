@@ -1,0 +1,22 @@
+.render-text-v1 {
+    box-sizing: border-box;
+    display: block;
+    font-size: 32rpx;
+    white-space: pre-wrap;
+  }
+  
+  .render-text-v1--overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .render-text-v1--singleline {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .render-text-v1--multiline {
+    display: -webkit-box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+  }
+  

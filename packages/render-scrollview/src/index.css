@@ -1,0 +1,17 @@
+.render-scrollview-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.render-scrollview-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.render-scrollview-content-container-horizontal {
+    flex-direction: row;
+}
+
+.render-scrollview-webcontainer {
+    display: block;
+}

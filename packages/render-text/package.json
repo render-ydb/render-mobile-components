@@ -1,0 +1,34 @@
+{
+  "name": "render-text",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/lib/index.js",
+  "module": "build/es/index.js",
+  "types": "build/lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/x-render-ydb/render-components.git"
+  },
+  "scripts": {
+    "start": "../../node_modules/.bin/render-builder start --config ../../build.json",
+    "build": "../../node_modules/.bin/render-builder build --config ../../build.json"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "gitHead": "3cdfa0a82b8ca7fefb40e92f3568f4f8108b49e9",
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "react": "^18.2.0"
+  }
+}
