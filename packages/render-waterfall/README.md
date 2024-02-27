@@ -1,53 +1,28 @@
-# render-waterfall
+# @x.render/render-waterfall
 
-## 描述
+<p>
+<a href="https://www.npmjs.com/package/@x.render/render-waterfall" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-waterfall" alt="NPM version" /></a>
 
-用于实现瀑布流的列表容器
+<a href="https://www.npmjs.com/package/@x.render/render-waterfall" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-waterfall" alt="NPM Downloads" /></a>
 
-## 安装
+</p>
+
+[中文文档](./README.zh.md)
+
+## Introduce
+
+List container for implementing waterfall flow
+
+## Usage
 
 ```bash
-$ npm install render-waterfall --save
+$ npm install @x.render/render-waterfall --save
 ```
 
-## 属性
-
-| **属性**              | **类型**   | **默认值** | **必填** | **描述**                                        |
-| --------------------- | ---------- | ---------- | -------- | ----------------------------------------------- |
-| dataSource            | `array`    | -          | true     | 瀑布流数组，需要传入模块高度                    |
-| renderItem            | `function` | -          | true     | 渲染每项的模板                                  |
-| renderHeader          | `function` | -          | false    | 渲染 header 部分                                |
-| renderFooter          | `function` | -          | false    | 渲染 footer 部分                                |
-| columnWidth           | `number`   | 750        | false    | 列宽                                            |
-| columnCount           | `number`   | 1          | false    | 列数                                            |
-| columnGap             | `number`   | 0          | false    | 列间距                                          |
-| cellProps             | `object`   | -          | false    | weex Cell 组件的 props                          |
-| onEndReachedThreshold | `number`   | 500        | false    | 设置加载更多的偏移                              |
-| onEndReached          | `function` | -          | false    | 滚动区域还剩`onEndReachedThreshold`的长度时触发 |
-| leftGap               | `number`   | 0          | false    | 距离左边的间隙                                  |
-| rightGap              | `number`   | 0          | false    | 距离右边的间隙                                  |
-
-## 方法
-
-### scrollTo({x: number,y: number, animated?: boolean, duration?: number})
-
-#### 参数
-
-**参数为 object，包含以下属性**
-
-| **属性** | **类型**  | **默认值** | **必填** | **描述**                                                                          |
-| -------- | --------- | ---------- | -------- | --------------------------------------------------------------------------------- |
-| x        | `number`  | -          | 否       | 横向的偏移量                                                                      |
-| y        | `number`  | -          | 否       | 纵向的偏移量                                                                      |
-| animated | `boolean` | `true`     | 否       | 在设置滚动条位置时使用动画过渡                                                    |
-| duration | `number`  | 400        | 否       | 当 `animated` 设置为 `true` 时，可以设置 duration 来控制动画的执行时间，单位 `ms` |
-
-## 示例
-
 ```jsx
-import View from "render-view";
-import Text from "render-text";
-import Waterfall from "render-waterfall";
+import View from "@x.render/render-view";
+import Text from "@x.render/render-text";
+import Waterfall from "@x.render/render-waterfall";
 import { useState } from "react";
 
 let data = [
@@ -150,3 +125,34 @@ const App = () => {
 
 export default App;
 ```
+
+## Property
+
+| **Name**              | **Type**   | **Default** | **Required** | **Description**                                                                 |
+| --------------------- | ---------- | ----------- | ------------ | ------------------------------------------------------------------------------- |
+| dataSource            | `array`    | -           | true         | Waterfall array, module height needs to be passed in                            |
+| renderItem            | `function` | -           | true         | Render a template for each item                                                 |
+| renderHeader          | `function` | -           | false        | Render header part                                                              |
+| renderFooter          | `function` | -           | false        | Render footer part                                                              |
+| columnWidth           | `number`   | 750         | false        | column width                                                                    |
+| columnCount           | `number`   | 1           | false        | Number of columns                                                               |
+| columnGap             | `number`   | 0           | false        | column spacing                                                                  |
+| onEndReachedThreshold | `number`   | 500         | false        | Set the offset to load more                                                     |
+| onEndReached          | `function` | -           | false        | Triggered when the length of `onEndReachedThreshold` is left in the scroll area |
+| leftGap               | `number`   | 0           | false        | gap to the left                                                                 |
+| rightGap              | `number`   | 0           | false        | gap to the right                                                                |
+
+## Methods
+
+### scrollTo({x: number,y: number, animated?: boolean, duration?: number})
+
+#### params
+
+**The parameter is `object`, containing the following properties**
+
+| **Name** | **Type**  | **Default** | **Required** | **Description**                                                                                             |
+| -------- | --------- | ----------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
+| x        | `number`  | -           | No           | horizontal offset                                                                                           |
+| y        | `number`  | -           | No           | vertical offset                                                                                             |
+| animated | `boolean` | `true`      | No           | Use animated transitions when setting scrollbar position                                                    |
+| duration | `number`  | 400         | No           | When `animated` is set to `true`, duration can be set to control the execution time of the animation in `ms |
