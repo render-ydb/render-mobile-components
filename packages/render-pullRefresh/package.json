@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-pullrefresh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Container that supports custom pull-down refresh prompts",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
@@ -27,7 +27,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-view": "^1.0.1",
+    "@x.render/render-view": "^1.0.2",
     "classnames": "^2.5.1"
   },
   "devDependencies": {

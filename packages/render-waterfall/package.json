@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-waterfall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "List container for implementing waterfall flow",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
@@ -27,8 +27,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-scrollview": "^1.0.1",
-    "@x.render/render-view": "^1.0.1"
+    "@x.render/render-scrollview": "^1.0.2",
+    "@x.render/render-view": "^1.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
