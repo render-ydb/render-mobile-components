@@ -4,7 +4,7 @@
   "description": "video-based video playback component",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "build/lib/index.js",
   "module": "build/es/index.js",
   "types": "build/lib/index.d.ts",

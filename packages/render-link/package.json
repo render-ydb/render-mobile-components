@@ -4,7 +4,7 @@
   "description": "Link is the basic link component and has the same function as the a tag.",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "build/lib/index.js",
   "module": "build/es/index.js",
   "types": "build/lib/index.d.ts",

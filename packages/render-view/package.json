@@ -4,7 +4,7 @@
   "description": "For react components encapsulated by div, you can understand that View is a container component used to include any elements and components. View provides appear related events. You can use this feature to do something special.",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "build/lib/index.js",
   "module": "build/es/index.js",
   "types": "build/lib/index.d.ts",
