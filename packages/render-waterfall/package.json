@@ -21,7 +21,8 @@
   },
   "scripts": {
     "start": "../../node_modules/.bin/render-builder start --config ../../build.json",
-    "build": "../../node_modules/.bin/render-builder build --config ../../build.json"
+    "build": "../../node_modules/.bin/render-builder build --config ../../build.json",
+    "prepublishOnly": "npm run build"
   },
   "publishConfig": {
     "access": "public"
@@ -36,5 +37,6 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "gitHead": "3c7f63bb2694ea2a9c34ebbf6d33c49c07f25b02"
 }
