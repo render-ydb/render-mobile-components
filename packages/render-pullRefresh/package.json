@@ -2,7 +2,7 @@
   "name": "@x.render/render-pullrefresh",
   "version": "1.0.1",
   "description": "Container that supports custom pull-down refresh prompts",
-  "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
+  "author": "yangdaobo.render@gmail.com",
   "homepage": "",
   "license": "ISC",
   "main": "build/lib/index.js",

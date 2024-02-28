@@ -2,7 +2,7 @@
   "name": "@x.render/render-waterfall",
   "version": "1.0.1",
   "description": "List container for implementing waterfall flow",
-  "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
+  "author": "yangdaobo.render@gmail.com",
   "homepage": "",
   "license": "ISC",
   "main": "build/lib/index.js",

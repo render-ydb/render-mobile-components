@@ -2,7 +2,7 @@
   "name": "@x.render/render-link",
   "version": "1.0.1",
   "description": "Link is the basic link component and has the same function as the a tag.",
-  "author": "yangdaobo.ydb <yangdaobo.ydb@alibaba-inc.com>",
+  "author": "yangdaobo.render@gmail.com",
   "homepage": "",
   "license": "ISC",
   "main": "build/lib/index.js",
