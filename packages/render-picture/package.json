@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-picture",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The image display component implemented by the img element adds lazy loading and default bottom-up image display functions compared to the img element.",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",

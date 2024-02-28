@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-link",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Link is the basic link component and has the same function as the a tag.",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-text": "^1.0.2"
+    "@x.render/render-text": "^1.0.3"
   },
   "peerDependencies": {
     "react": "^18.2.0"
