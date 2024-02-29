@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-pullrefresh",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Container that supports custom pull-down refresh prompts",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
