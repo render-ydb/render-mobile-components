@@ -28,8 +28,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-scrollview": "^1.0.5",
-    "@x.render/render-view": "^1.0.5"
+    "@x.render/render-scrollview": "file:../render-scrollview",
+    "@x.render/render-view": "file:../render-view"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

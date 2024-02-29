@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-view": "^1.0.5",
+    "@x.render/render-view": "file:../render-view",
     "classnames": "^2.5.1"
   },
   "peerDependencies": {
