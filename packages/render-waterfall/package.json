@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-waterfall",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "List container for implementing waterfall flow",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
