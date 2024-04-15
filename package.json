@@ -6,13 +6,13 @@
   "scripts": {
     "lerna:publish": "npx lerna publish --yes --force-publish=*",
     "prepare": "npx render-lint init  --force",
-    "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "eslint-fix": "eslint \"packages/**/*/src/**/*.{js,jsx,ts,tsx}\" --fix",
     "render-lint-fix": "npm run eslint-fix"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^18.2.54",
+    "@types/react": "^18.2.55",
     "@x.render/build-react-component-webpack-preset": "^0.1.5",
     "@x.render/render-builder": "^1.0.1",
     "@x.render/render-lint": "^1.0.2",
