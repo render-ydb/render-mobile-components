@@ -28,8 +28,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-scrollview": "^1.1.0",
-    "@x.render/render-view": "^1.1.0"
+    "@x.render/render-scrollview": "file:../render-scrollview",
+    "@x.render/render-view": "file:../render-view"
   },
   "peerDependencies": {
     "react": "^18.2.0"
