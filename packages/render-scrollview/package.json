@@ -28,10 +28,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@x.render/render-view": "file:../render-view",
+    "@x.render/render-view": "^1.2.0",
     "classnames": "^2.5.1"
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "gitHead": "9a322101dd6b728aa0bd1dca807b0fe8e27819c2"
 }

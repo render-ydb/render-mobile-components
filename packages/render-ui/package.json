@@ -1,6 +1,7 @@
 {
   "name": "@x.render/render-ui",
   "version": "1.2.0",
+  "author": "yangdaobo.render@gmail.com",
   "description": "React-based mobile component library",
   "keywords": [
     "react",
@@ -8,19 +9,19 @@
     "ui",
     "render"
   ],
-  "author": "mvc_ydb_admin <1609059419@qq.com>",
   "homepage": "https://github.com/render-ydb/render-mobile-components#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "build/lib/index.js",
+  "module": "build/es/index.js",
+  "types": "build/lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "build"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/",
     "access": "public"
   },
   "repository": {
@@ -33,16 +34,17 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@x.render/render-link": "file:../render-link",
-    "@x.render/render-picture": "file:../render-picture",
+    "@x.render/render-link": "^1.2.0",
+    "@x.render/render-picture": "^1.2.0",
     "@x.render/render-pullRefresh": "file:../render-pullRefresh",
-    "@x.render/render-scrollview": "file:../render-scrollview",
-    "@x.render/render-text": "file:../render-text",
+    "@x.render/render-scrollview": "^1.2.0",
+    "@x.render/render-text": "^1.2.0",
     "@x.render/render-video": "file:../render-video",
-    "@x.render/render-view": "file:../render-view",
-    "@x.render/render-waterfall": "file:../render-waterfall"
+    "@x.render/render-view": "^1.2.0",
+    "@x.render/render-waterfall": "^1.2.0"
   },
   "bugs": {
     "url": "https://github.com/render-ydb/render-mobile-components/issues"
-  }
+  },
+  "gitHead": "9a322101dd6b728aa0bd1dca807b0fe8e27819c2"
 }

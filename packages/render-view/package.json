@@ -33,5 +33,6 @@
   "dependencies": {
     "classnames": "^2.5.1",
     "uuid": "^9.0.1"
-  }
+  },
+  "gitHead": "9a322101dd6b728aa0bd1dca807b0fe8e27819c2"
 }
