@@ -31,4 +31,6 @@ const Picture: FC<PictureProps> = (props) => {
 
   return <img src={lazyload ? placeholder : src} {...rest} ref={imgRef} />;
 };
+
+Picture.displayName = 'Picture';
 export default Picture;
