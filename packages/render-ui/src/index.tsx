@@ -1,6 +1,6 @@
 import Link from "@x.render/render-link";
 import Picture from "@x.render/render-picture";
-import PullRefresh from "@x.render/render-pullRefresh";
+import PullRefresh from "@x.render/render-pullrefresh";
 import Scrollview from "@x.render/render-scrollview";
 import Text from "@x.render/render-text";
 import Video from "@x.render/render-video";
