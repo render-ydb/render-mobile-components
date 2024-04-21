@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-ui",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "author": "yangdaobo.render@gmail.com",
   "description": "React-based mobile component library",
   "keywords": [
@@ -34,14 +34,14 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@x.render/render-link": "^1.7.0",
-    "@x.render/render-picture": "^1.7.0",
-    "@x.render/render-pullrefresh": "^1.7.0",
-    "@x.render/render-scrollview": "^1.7.0",
-    "@x.render/render-text": "^1.7.0",
-    "@x.render/render-video": "^1.7.0",
-    "@x.render/render-view": "^1.7.0",
-    "@x.render/render-waterfall": "^1.7.0"
+    "@x.render/render-link": "^1.7.1",
+    "@x.render/render-picture": "^1.7.1",
+    "@x.render/render-pullrefresh": "^1.7.1",
+    "@x.render/render-scrollview": "^1.7.1",
+    "@x.render/render-text": "^1.7.1",
+    "@x.render/render-video": "^1.7.1",
+    "@x.render/render-view": "^1.7.1",
+    "@x.render/render-waterfall": "^1.7.1"
   },
   "bugs": {
     "url": "https://github.com/render-ydb/render-mobile-components/issues"
