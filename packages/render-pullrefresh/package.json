@@ -1,7 +1,7 @@
 {
-  "name": "@x.render/render-video",
+  "name": "@x.render/render-pullrefresh",
   "version": "1.3.0",
-  "description": "video-based video playback component",
+  "description": "Container that supports custom pull-down refresh prompts",
   "author": "yangdaobo.render@gmail.com",
   "homepage": "",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "module": "build/es/index.js",
   "types": "build/lib/index.d.ts",
   "directories": {
-    "lib": "lib",
+    "lib": "build",
     "test": "__tests__"
   },
   "files": [
@@ -28,8 +28,8 @@
     "access": "public"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
-    "omit.js": "^2.0.2"
+    "@x.render/render-view": "^1.3.0",
+    "classnames": "^2.5.1"
   },
   "peerDependencies": {
     "react": "^18.2.0"

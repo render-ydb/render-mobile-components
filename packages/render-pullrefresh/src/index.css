@@ -1,0 +1,18 @@
+.render-pullRefresh-loading {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.render-pullRefresh-container {
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 9;
+}
+.render-pullRefresh-container::-webkit-scrollbar {
+    display: none;
+}
