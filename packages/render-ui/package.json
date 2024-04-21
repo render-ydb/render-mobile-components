@@ -40,11 +40,11 @@
     "@x.render/render-scrollview": "^1.7.0",
     "@x.render/render-text": "^1.7.0",
     "@x.render/render-video": "^1.7.0",
-    "@x.render/render-view": "file:../render-view",
+    "@x.render/render-view": "^1.7.0",
     "@x.render/render-waterfall": "^1.7.0"
   },
   "bugs": {
     "url": "https://github.com/render-ydb/render-mobile-components/issues"
   },
-  "gitHead": "6b70caf51a3d7ab7c6c528ef8ebbe164f14b1cbf"
+  "gitHead": "2e45539225805681fcb3c0fba512e6ae93b46934"
 }
