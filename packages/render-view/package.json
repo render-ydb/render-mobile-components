@@ -30,9 +30,5 @@
   "peerDependencies": {
     "react": "^18.2.0"
   },
-  "dependencies": {
-    "classnames": "^2.5.1",
-    "uuid": "^9.0.1"
-  },
   "gitHead": "eac2394e3c9cf17accf58cd8bca31918cc1f256f"
 }

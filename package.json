@@ -6,7 +6,7 @@
   "scripts": {
     "lerna:publish": "npx lerna publish --yes --force-publish=*",
     "prepare": "npx render-lint init  --force",
-    "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "eslint-fix": "eslint \"packages/**/*.{js,jsx,ts,tsx}\" --fix",
     "render-lint-fix": "npm run eslint-fix"
   },
   "author": "",

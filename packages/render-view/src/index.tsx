@@ -1,10 +1,8 @@
 import { forwardRef, ForwardRefRenderFunction, useRef, useEffect } from 'react';
-import cx from 'classnames/dedupe';
 import { ViewProps } from './types';
-import { v4 as uuidv4 } from 'uuid';
 import './index.css';
 
-const viewAppearId = uuidv4();
+
 const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
   props,
   ref,
@@ -20,13 +18,12 @@ const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
   } = props;
   const firstAppearRef = useRef<Boolean>(false);
   const hasAppearRef = useRef<Boolean>(false);
+  const domRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!onAppear && !onFirstAppear && !onDisappear) {
       return;
     }
-    let observerTarget = document.querySelector(
-      `[data-view-id="${viewAppearId}"]`,
-    );
+    let observerTarget = domRef.current;
     let observer = new IntersectionObserver(
       (entries) => {
         if (entries[0]['isIntersecting']) {
@@ -53,14 +50,15 @@ const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
     };
   }, [onAppear, onFirstAppear, onDisappear]);
   return (
-    <div
-      {...rest}
-      ref={ref}
-      style={style}
-      className={cx('render-view-v1', className)}
-      data-view-id={viewAppearId}
-    >
-      {children}
+    <div ref={domRef}>
+      <div
+        {...rest}
+        ref={ref}
+        style={style}
+        className={className}
+      >
+        {children}
+      </div>
     </div>
   );
 };
