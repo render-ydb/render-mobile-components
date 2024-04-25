@@ -30,5 +30,8 @@
   "peerDependencies": {
     "react": "^18.2.0"
   },
-  "gitHead": "eac2394e3c9cf17accf58cd8bca31918cc1f256f"
+  "gitHead": "eac2394e3c9cf17accf58cd8bca31918cc1f256f",
+  "dependencies": {
+    "classnames": "^2.5.1"
+  }
 }

@@ -6,6 +6,7 @@ import {
   useImperativeHandle,
 } from 'react';
 import { ViewProps } from './types';
+import cx from 'classnames/dedupe';
 import './index.css';
 
 const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
@@ -58,7 +59,12 @@ const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
   useImperativeHandle(ref, () => domRef.current);
 
   return (
-    <div {...rest} ref={domRef} style={style} className={className}>
+    <div
+      {...rest}
+      ref={domRef}
+      style={style}
+      className={cx('render-view-v1', className)}
+    >
       {children}
     </div>
   );
