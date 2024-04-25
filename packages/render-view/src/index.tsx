@@ -1,7 +1,12 @@
-import { forwardRef, ForwardRefRenderFunction, useRef, useEffect } from 'react';
+import {
+  forwardRef,
+  ForwardRefRenderFunction,
+  useRef,
+  useEffect,
+  useImperativeHandle,
+} from 'react';
 import { ViewProps } from './types';
 import './index.css';
-
 
 const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
   props,
@@ -49,16 +54,12 @@ const View: ForwardRefRenderFunction<HTMLDivElement, ViewProps> = (
       observerTarget = null;
     };
   }, [onAppear, onFirstAppear, onDisappear]);
+
+  useImperativeHandle(ref, () => domRef.current);
+
   return (
-    <div ref={domRef}>
-      <div
-        {...rest}
-        ref={ref}
-        style={style}
-        className={className}
-      >
-        {children}
-      </div>
+    <div {...rest} ref={domRef} style={style} className={className}>
+      {children}
     </div>
   );
 };
